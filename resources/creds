@@ -1,0 +1,3 @@
+OCPNAM := pacs-selenium-sre
+OCPURL := https://192.168.99.104:8443
+OCPTKN := 0oFGFhhkEIwVV_AySLdF20Y_UUmLvDRh1bnE-3R5oPI

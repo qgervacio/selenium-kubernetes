@@ -1,0 +1,21 @@
+{
+  "selenium": {
+    "hub": {
+      "replicas": "1",
+      "image": "selenium/hub:3.141",
+      "service": {
+        "host": "selenium.192.168.99.104.nip.io"
+      }
+    },
+    "node": {
+      "chrome": {
+        "replicas": "1",
+        "image": "selenium/node-chrome-debug:3.141.59-iron"
+      },
+      "firefox": {
+        "replicas": "1",
+        "image": "selenium/node-firefox-debug:3.141.59-iron"
+      }
+    }
+  }
+}
